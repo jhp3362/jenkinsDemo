@@ -23,6 +23,7 @@ pipeline {
     post {
         always {
             echo 'pipeline job done'
+            echo '2000'
         }
         
     }
